@@ -1,0 +1,38 @@
+@media (max-width: 650px) {
+
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho .logo {
+        justify-content: center;
+    }
+
+    .cabecalho span {
+        font-size: 40px;
+    }
+
+    .cabecalho .menu ul{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .cabecalho .menu li{
+        padding-top: 20px;
+    }
+
+    .cabecalho .menu li a{
+        font-size: 30px;
+        padding: 17px 40px; 
+    }
+
+   button {
+        font-size: 30px;
+        padding: 15px 23px;
+        margin-top: 20px;
+    }
+
+}

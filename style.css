@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@200;400;500;700;800&family=Public+Sans:wght@300;400;800&display=swap');
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+
+.cabecalho .logo {
+    width: 45px;
+    height: 42px;
+    font-family: 'Public Sans';
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho span{
+    margin-left: 8px;
+}
+
+.menu {
+    text-align: right;
+    font-family: 'Public Sans';
+}
+
+.cabecalho .menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho .menu li a {
+    padding: 15px;
+    display: flex;
+    transition: 0.3 ease-in-out;
+}
+
+.cabecalho li a:hover {
+    background: #5BC241;
+    color: #FFF;
+}
+
+button {
+    font-family: 'Public Sans';
+    font-size: 15px;
+    background-color: #5BC241;
+    color: #FFF;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 20px;
+    cursor: pointer;
+}
